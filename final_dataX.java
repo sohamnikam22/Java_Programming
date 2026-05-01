@@ -12,16 +12,16 @@ class Demo
    }
 }
 
-class final_data
+
+class final_dataX
 {
 
     public static void main(String A[])
     {
         Demo dobj = new Demo(10,20);
 
-        dobj.i = 11;        // Error
+        
         dobj.j = 21;        // allowed
-        dobj.i++;           // Error
         dobj.j++;           // Allowed
  
     }
